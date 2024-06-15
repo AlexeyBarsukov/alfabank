@@ -1,0 +1,17 @@
+.button {
+    border: 0;
+    background: rgba(11, 31, 53, .07);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 14px 24px;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: background 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.button:active {
+    background: rgba(11, 31, 53, 0.2);
+}

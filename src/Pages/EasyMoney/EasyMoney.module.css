@@ -1,0 +1,64 @@
+.easyMoneyMain {
+    display: flex;
+    justify-content: center;
+}
+
+.mainBlock {
+    padding-left: 16px;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.steps__item {
+    background-color: #edf5ff;
+    background-position: 100% 5%;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 12px;
+}
+
+.alfaLogo {
+    background-image: url("../../assets/people1.png"), url("../../assets/people2.png");
+    background-position: 100% 100%;
+}
+
+.money {
+    background-image: url("../../assets/partners.png");
+    background-size: 230px;
+    background-position: 85% 42%;
+}
+
+.getMoney {
+    background-image: url("../../assets/work.png");
+    background-size: 230px;
+}
+
+.steps__item__number {
+    color: #ef3124;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+
+.steps__item__text {
+    color: #888d86;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.275;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 720px) {
+    .steps {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

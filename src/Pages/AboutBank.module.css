@@ -1,0 +1,139 @@
+.aboutBank {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgba(11, 31, 53, .15);
+    padding: 22px 98px 99px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    color: #0b1f35;
+}
+
+.mainAboutBank {
+    display: flex;
+    justify-content: center;
+}
+
+.recommendations {
+    margin: 12px
+}
+
+.mainBtnAlfa {
+    margin-top: 50px;
+}
+
+.titleRec {
+    font-size: 32px;
+    color: #0b1f35;
+    line-height: 1.45;
+    margin-bottom: 28px;
+}
+
+.subTitle {
+    color: rgba(10, 30, 50, 0.6);
+}
+
+.recBlock {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 30px;
+}
+
+.cardDebitRec, .cardCreditRec, .cardCashRec {
+    border-radius: 12px;
+    padding: 28px 32px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cardDebitRec {
+    background: linear-gradient(285.68deg,
+    rgb(255, 255, 255) -25.41%,
+    rgba(255, 255, 255, 0) 196.68%),
+    radial-gradient(57.5% 223.83% at 80.14% 38.97%,
+    rgba(255, 67, 236, 0.4) 0%, rgba(15, 98, 254, 0.23) 100%
+    );
+}
+
+.cardCreditRec {
+    background: rgb(243, 234, 236);;
+}
+
+.cardCashRec {
+    background: linear-gradient(236.88deg, rgb(221, 205, 255) -0.31%, rgba(255, 255, 255, 0.56) 145.06%), rgb(255, 255, 255);;
+}
+
+
+.cardRec_section {
+    display: flex;
+    gap: 10px;
+}
+
+.cardRec_name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #0b1f35;
+}
+
+.imgCard {
+    width: 120px;
+    height: auto;
+}
+
+.btnAlfa {
+    background: #ef3124;
+    color: #ffffff;
+}
+
+.btnAlfa:hover {
+    background: #cb2a1f;
+}
+
+.actionAlfa {
+    background: rgba(11, 31, 53, .07);
+    color: black;
+}
+
+.actionAlfa:hover {
+    background: rgba(11, 31, 53, 0.2);
+}
+
+@media screen and (max-width: 750px) {
+    .titleRec {
+        font-size: 20px;
+    }
+
+    .subTitle {
+        font-size: 16px;
+    }
+
+    .aboutBank {
+        padding: 12px 12px 32px 12px;
+        margin: 12px;
+    }
+    .recBlock {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .title {
+        font-size: 20px;
+    }
+}
