@@ -40,7 +40,7 @@ export default function AboutBank() {
                     уникальной ссылке.</span> <br/>
                     Набирая новых агентов, воспользуйтесь реферальной программой,
                     которая обеспечит вас дополнительными доходами от каждого нового клиента, который начнет путь с Вас.
-                    Все интересующие вопросы, можно задать в  <a href="#" style={{fontWeight: 700, textDecoration: "none", color: "#C03A1B",}}>нашем телеграмм канале</a>
+                    Все интересующие вопросы, можно задать в  <a target="_blank" href="https://t.me/+ApKJ4TR2Rv1lN2Qy" style={{fontWeight: 700, textDecoration: "none", color: "#C03A1B",}}>нашем телеграмм канале</a>
                 </span>
                 <div className={styles.recBlock}>
                     <div className={styles.cardDebitRec}>

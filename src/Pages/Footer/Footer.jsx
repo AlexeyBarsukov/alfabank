@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className={style.container}>
                     <div className={styles.footer}>
                         <div className={styles.blockLink}>
-                            <a className={styles.link} rel="noreferrer" href="#">Телеграмм</a>
+                            <a className={styles.link} rel="noreferrer" href="https://t.me/+ApKJ4TR2Rv1lN2Qy" target="_blank">Телеграмм</a>
                             <a className={styles.link} rel="noreferrer" href="https://ag.alfabank.ru/ref/410883" target="_blank">Стать партнером</a>
                             <a className={styles.link} rel="noreferrer" href="https://xplatform.alfabank.ru/universal-dc-form-web-ui/msv-questionnaire/offer?utm=DC-msv_410883_3857468_utm_source=alfapartners_utm_medium=msv_utm_term=DC-msv_utm_campaign=410883_utm_content=alfapartners_msv_DC-msv_410883_3857468"
                             >
